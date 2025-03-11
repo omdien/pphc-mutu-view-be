@@ -3,8 +3,8 @@ import db_hc from "../config/Database.js";
 
 const { DataTypes } = Sequelize;
 
-const Tr_ppk = db_hc.define(
-  "tr_ppk", {
+const Tr_kemasan = db_hc.define(
+  "tr_kemasan", {
   KODE_KEMASAN: {
     type: DataTypes.STRING(2),
     allowNull: false,
@@ -37,4 +37,4 @@ const Tr_ppk = db_hc.define(
   ]
 });
 
-export default Tr_ppk
+export default Tr_kemasan;

@@ -10,6 +10,10 @@ import {
     getPpkMutuAreaByAju,
     getPpkContainerByAju,
     getPpkDtlByAju,
+    getPpkKemasanByAju,
+    getKemasan,
+    getKemasanByKd,
+    getPpkMutuProdByAju,
     getUptByAju,
     getNegaraByAju,
     getPelabuhanByAju
@@ -27,6 +31,10 @@ router.get('/view/getppkmutubyaju/:noAju', getPpkMutuByAju);
 router.get('/view/getppkmutuareabyaju/:noAju', getPpkMutuAreaByAju);
 router.get('/view/getppkcontainerbyaju/:noAju', getPpkContainerByAju);
 router.get('/view/getppkdtlbyaju/:noAju', getPpkDtlByAju);
+router.get('/view/getppkkemasanbyaju/:noAju', getPpkKemasanByAju);
+router.get('/view/getallkemasan', getKemasan);
+router.get('/view/getkemasanbykd/:kdKemasan', getKemasanByKd);
+router.get('/view/getppkmutuprodbyaju/:noAju', getPpkMutuProdByAju);
 router.get('/view/getuptbyaju/:noUptAju', getUptByAju);
 router.get('/view/getnegarabyaju/:kdNegara', getNegaraByAju);
 router.get('/view/getpelabuhanbyaju/:kdPelabuhan', getPelabuhanByAju);

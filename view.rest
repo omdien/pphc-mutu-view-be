@@ -1,7 +1,7 @@
 GET http://localhost:5002/view/gethc
 
 ###
-GET http://localhost:5002/view/gethcbyaju/AE04.0III202501853
+GET http://localhost:5002/view/gethcbyaju/AE03.0III202500163
 
 ###
 GET http://localhost:5002/view/gethcdtl
@@ -16,19 +16,31 @@ GET http://localhost:5002/view/getppk
 GET http://localhost:5002/view/getppkbyaju/AE04.0III202501853
 
 ###
-GET http://localhost:5002/view/getppkmutubyaju/AE04.0III202501853
+GET http://localhost:5002/view/getppkmutubyaju/AE15.0III202500667
 
 ###
 GET http://localhost:5002/view/getppkmutuareabyaju/AE04.0III202501853
 
 ###
-GET http://localhost:5002/view/getppkcontainerbyaju/AE04.0III202501853
+GET http://localhost:5002/view/getppkcontainerbyaju/AE03.0III202500163
 
 ###
-GET http://localhost:5002/view/getppkdtlbyaju/AE04.0III202501853
+GET http://localhost:5002/view/getppkdtlbyaju/AE03.0III202500163
 
 ###
-GET http://localhost:5002/view/getuptbyaju/03.0
+GET http://localhost:5002/view/getppkkemasanbyaju/AE03.0III202500163
+
+###
+GET http://localhost:5002/view/getallkemasan
+
+###
+GET http://localhost:5002/view/getkemasanbykd/BX
+
+###
+GET http://localhost:5002/view/getppkmutuprobdyaju/AE03.0III202500163
+
+###
+GET http://localhost:5002/view/getuptbyaju/15.0
 
 ###
 GET http://localhost:5002/view/getnegarabyaju/SG
