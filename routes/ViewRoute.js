@@ -21,22 +21,22 @@ import {
 
 const router = express.Router();
 
-router.get('/view/gethc', getHC);
-router.get('/view/gethcbyaju/:noAju', getHcByAju);
-router.get('/view/gethcdtl', getHcDtl);
-router.get('/view/gethcdtlbyaju/:noAju', getHcDtlByAju);
-router.get('/view/getppk', getPpk);
-router.get('/view/getppkbyaju/:noAju', getPpkByAju);
-router.get('/view/getppkmutubyaju/:noAju', getPpkMutuByAju);
-router.get('/view/getppkmutuareabyaju/:noAju', getPpkMutuAreaByAju);
-router.get('/view/getppkcontainerbyaju/:noAju', getPpkContainerByAju);
-router.get('/view/getppkdtlbyaju/:noAju', getPpkDtlByAju);
-router.get('/view/getppkkemasanbyaju/:noAju', getPpkKemasanByAju);
-router.get('/view/getallkemasan', getKemasan);
-router.get('/view/getkemasanbykd/:kdKemasan', getKemasanByKd);
-router.get('/view/getppkmutuprodbyaju/:noAju', getPpkMutuProdByAju);
-router.get('/view/getuptbyaju/:noUptAju', getUptByAju);
-router.get('/view/getnegarabyaju/:kdNegara', getNegaraByAju);
-router.get('/view/getpelabuhanbyaju/:kdPelabuhan', getPelabuhanByAju);
+router.get('/viewsmkhp/gethc', getHC);
+router.get('/viewsmkhp/gethcbyaju/:noAju', getHcByAju);
+router.get('/viewsmkhp/gethcdtl', getHcDtl);
+router.get('/viewsmkhp/gethcdtlbyaju/:noAju', getHcDtlByAju);
+router.get('/viewsmkhp/getppk', getPpk);
+router.get('/viewsmkhp/getppkbyaju/:noAju', getPpkByAju);
+router.get('/viewsmkhp/getppkmutubyaju/:noAju', getPpkMutuByAju);
+router.get('/viewsmkhp/getppkmutuareabyaju/:noAju', getPpkMutuAreaByAju);
+router.get('/viewsmkhp/getppkcontainerbyaju/:noAju', getPpkContainerByAju);
+router.get('/viewsmkhp/getppkdtlbyaju/:noAju', getPpkDtlByAju);
+router.get('/viewsmkhp/getppkkemasanbyaju/:noAju', getPpkKemasanByAju);
+router.get('/viewsmkhp/getallkemasan', getKemasan);
+router.get('/viewsmkhp/getkemasanbykd/:kdKemasan', getKemasanByKd);
+router.get('/viewsmkhp/getppkmutuprodbyaju/:noAju', getPpkMutuProdByAju);
+router.get('/viewsmkhp/getuptbyaju/:noUptAju', getUptByAju);
+router.get('/viewsmkhp/getnegarabyaju/:kdNegara', getNegaraByAju);
+router.get('/viewsmkhp/getpelabuhanbyaju/:kdPelabuhan', getPelabuhanByAju);
 
 export default router;

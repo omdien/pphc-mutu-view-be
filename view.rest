@@ -1,49 +1,47 @@
-GET http://localhost:5002/view/gethc
+GET http://localhost:5002/viewsmkhp/gethc
 
 ###
-GET http://localhost:5002/view/gethcbyaju/AE03.0III202500163
+GET http://localhost:5002/viewsmkhp/gethcbyaju/AE25.0III202500600
 
 ###
-GET http://localhost:5002/view/gethcdtl
+GET http://localhost:5002/viewsmkhp/gethcdtl
 
 ###
-GET http://localhost:5002/view/gethcdtlbyaju/AE01.0III202500127
+GET http://localhost:5002/viewsmkhp/gethcdtlbyaju/AE25.0III202500600
 
 ###
-GET http://localhost:5002/view/getppk
+GET http://localhost:5002/viewsmkhp/getppk
 
 ###
-GET http://localhost:5002/view/getppkbyaju/AE04.0III202501853
+GET http://localhost:5002/viewsmkhp/getppkbyaju/AE04.0III202501853
 
 ###
-GET http://localhost:5002/view/getppkmutubyaju/AE15.0III202500667
+GET http://localhost:5002/viewsmkhp/getppkmutubyaju/AE15.0III202500667
 
 ###
-GET http://localhost:5002/view/getppkmutuareabyaju/AE04.0III202501853
+GET http://localhost:5002/viewsmkhp/getppkmutuareabyaju/AE04.0III202501853
 
 ###
-GET http://localhost:5002/view/getppkcontainerbyaju/AE03.0III202500163
+GET http://localhost:5002/viewsmkhp/getppkcontainerbyaju/AE03.0III202500163
 
 ###
-GET http://localhost:5002/view/getppkdtlbyaju/AE03.0III202500163
+GET http://localhost:5002/viewsmkhp/getppkdtlbyaju/AE25.0III202500600
+###
+GET http://localhost:5002/viewsmkhp/getppkkemasanbyaju/AE03.0III202500163
 
 ###
-GET http://localhost:5002/view/getppkkemasanbyaju/AE03.0III202500163
+GET http://localhost:5002/viewsmkhp/getallkemasan
 
 ###
-GET http://localhost:5002/view/getallkemasan
+GET http://localhost:5002/viewsmkhp/getkemasanbykd/BX
 
 ###
-GET http://localhost:5002/view/getkemasanbykd/BX
+GET http://localhost:5002/viewsmkhp/getppkmutuprodbyaju/AE15.0III202500667"
+###
+GET http://localhost:5002/viewsmkhp/getuptbyaju/15.0
 
 ###
-GET http://localhost:5002/view/getppkmutuprobdyaju/AE03.0III202500163
+GET http://localhost:5002/viewsmkhp/getnegarabyaju/SG
 
 ###
-GET http://localhost:5002/view/getuptbyaju/15.0
-
-###
-GET http://localhost:5002/view/getnegarabyaju/SG
-
-###
-GET http://localhost:5002/view/getpelabuhanbyaju/ARPBG
+GET http://localhost:5002/viewsmkhp/getpelabuhanbyaju/ARPBG
